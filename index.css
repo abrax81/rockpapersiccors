@@ -1,0 +1,12 @@
+body {
+    background-color: blue;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 45px;
+    align-items: center;
+    text-align: center;
+       }
+
+
