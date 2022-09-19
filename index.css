@@ -1,12 +1,28 @@
-body {
-    background-color: blue;
+body{
+    background-color:blue;
     color: white;
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    margin: 45px;
-    align-items: center;
+   align-content: center;
+   flex-direction: column;
+   text-align: center;
+   flex-wrap: wrap;
+
+    
+}
+
+.intro{
     text-align: center;
-       }
+}
 
+.choice{
+    background: none;
+    border: none;
+    outline: none;
+    cursor:pointer;
+    font-size: 2rem;
+    
+}
 
+.choice:hover{
+    transform: scale(1.3);
+}
